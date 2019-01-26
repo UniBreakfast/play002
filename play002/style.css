@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0 }
+
+body {
+  display: flex;
+  padding: 5px;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: #585555;
+}
+
+#body {
+  margin: auto;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background: cornsilk
+}
+
+a {
+  margin: 5px;
+  font-weight: bold;
+  color: black
+}
+
+h4 {
+  text-align: center;
+  margin: 8px 0 4px
+}
