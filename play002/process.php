@@ -4,17 +4,17 @@ error_reporting(E_PARSE | E_ERROR);
 mb_internal_encoding('UTF-8');
 date_default_timezone_set('Europe/Kiev');
 
-require_once $_SERVER['DOCUMENT_ROOT'].'sbdb.php';
+//require_once '../sbdb.php';
+//require_once '_Common/PHP/krumo.php';
 
-//echo 'Jeronimo!';
 
-$creds    = array();
-$updates  = array();
-$data     = array();
-$message  = array();
-$settings = array('option1'=>true, 'option2'=>false);
-$response = array('creds'=>$creds, 'data'=>$data, 'cfg'=>$settings,
-                  'msg'=>$message, 'upd'=>$updates);
-echo json_encode($response);
+echo 'Jeronimo!';
 
+//$response = array('msg'=>$_COOKIE['ck1']);
+
+//mail("unibreakfast1@gmail.com",
+//     "A letter from acoras PHP",
+//     "I'm so happy to write you a letter!");
+//echo json_encode($response);
+//krumo($_COOKIE);
 ?>
